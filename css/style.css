@@ -78,8 +78,36 @@ ul {
     display: inline-block;
 }
 
-.list_contact a {
-    text-decoration: none;
+.list_contact li {
+    position: relative;
+    width: 120px;
+    text-align: center;
+}
+.nav_cont::after {
+    content: '\21D3';
+}
+.nav_cont::before {
+    content: '\21D3';
+}
+.dropdown_cont {
+    position: absolute;
+    bottom: 100%;
+    opacity: 0;
+    visibility: hidden;
+}
+.list_contact>li:hover .dropdown_cont {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    background-color: aliceblue;
+}
+
+.list_contact:hover {
+    display: block;
+    transition: all 0.5s linear;
+    transform: translateY(52px);
+    scale: 1.2;
+    background-color: aliceblue;
 }
 
 /*main*/
