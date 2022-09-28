@@ -1,0 +1,284 @@
+.conteiner {
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+body {
+    max-width: 1920px;
+    margin: auto;
+}
+/*header*/
+.header {
+    background-color: #EEEFF1;
+}
+
+.main_nav {
+    padding-top: 79px;
+    margin-bottom: 0px;
+}
+.nav_a {
+    margin-right: 42px;
+    text-decoration: none;
+    color: #34547A;
+}
+.list>li {
+    display: inline-block;
+    position: relative;
+}
+.list a {
+    padding: 10px;
+    display: inline-block;
+}
+.list a:hover {
+    background-color: #f00;
+}
+.dropdown {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 120px;
+    display: none;
+    background-color: grey;
+    z-index: 2;
+}
+.dropdown a {
+    text-decoration: none;
+}
+.list>li:hover .dropdown {
+    display: block;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.dropdown>li {
+    position: relative;
+}
+.dropdown_2 {
+    position: absolute;
+    width: 120px;
+    background-color: grey;
+    z-index: 2;
+    display: none;
+    left: 120px;
+    top: 10px;
+}
+.dropdown>li:hover .dropdown_2 {
+    display: block;
+}
+
+/*hometask_9*/
+.list {
+    display: inline-block;
+}
+
+.main_contact {
+    display: inline-block;
+}
+.list_contact {
+    position: relative;
+    width: 120px;
+    text-align: center;
+}
+
+.dropdown_cont {
+    position: absolute;
+    bottom: 100%;
+    width: 120px;
+    text-align: center;
+    text-decoration-style: none;
+    opacity: 0;
+    visibility: hidden;
+}
+.list_contact a {
+    text-decoration: none;
+}
+
+.nav_cont>li:hover .dropdown_cont>ul {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}
+/*main*/
+.main {
+    background-color: #EEEFF1;
+}
+
+.main_main {
+    padding-top: 162px;
+}
+
+.h1 {
+    margin-bottom: 60px;
+}
+
+.main_main_p {
+    margin-bottom: 65px;
+    max-width: 540px;
+}
+
+.bg_buttom {
+    margin-bottom: 141px;
+    width: 225px;
+    height: 65px;
+    background-color: #34547A;
+}
+
+.buttom {
+    padding: 19px 41px 20px 41px;
+}
+.buttom_a {
+    text-decoration: none;
+    color: #FFFFFF;
+    margin: 0 auto;
+}
+
+.about {
+    background-color: #FFFFFF;
+}
+.box_about_h2 {
+    max-width: 503px;
+    text-align: center;
+    padding: 112px 0 50px;
+}
+
+.about_p {
+    width: 540px;
+    height: 57px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+/*icons*/
+.icons_box {
+    padding: 100px 0;
+    color: #FFFFFF;
+}
+.icons_holder_1 {
+    display: inline-block;
+}
+.icons_text_1 {
+    display: inline-block;
+    padding-right: 48.33px;
+}
+.icons_holder_2 {
+    display: inline-block;
+}
+.icons_text_2 {
+    display: inline-block;
+    padding-right: 48.33px;
+}
+.icons_holder_3 {
+    display: inline-block;
+}
+.icons_text_3 {
+    display: inline-block;
+    padding-right: 48.33px;
+}
+.icons_holder_4 {
+    display: inline-block;
+}
+.icons_text_4 {
+    display: inline-block;
+    padding-right: 48.33px;
+}
+.icons_holder_5 {
+    display: inline-block;
+}
+.icons_text_5 {
+    display: inline-block;
+    padding-right: 48.33px;
+}
+.icons_holder_6 {
+    display: inline-block;
+}
+.icons_text_6 {
+    display: inline-block;
+}
+.block_1 {
+    display: inline-block;
+}
+.block_2 {
+    display: inline-block;
+}
+.block_3 {
+    display: inline-block;
+}
+.block_4 {
+    display: inline-block;
+}
+.block_5 {
+    display: inline-block;
+}
+.block_6 {
+    display: inline-block;
+    padding: 100px 0;
+}
+
+.icons {
+    background-color: #34547A;
+}
+
+/*worl*/
+.work_h2 {
+    max-width: 403px;
+    margin: auto;
+    padding: 100px 0 50px;
+    text-align: center;
+}
+.work_p {
+    max-width: 540px;
+    text-align: center;
+    padding-bottom: 57px;
+}
+.video {
+    display: block;
+    width: 1110px;
+    height: 540px;
+    padding: 100px;
+}
+
+.footer {
+    background-color: #34547A; 
+    color: #FFFFFF;
+}
+.footer_h3 {
+    padding: 50px 0 20px;
+}
+.footer_h5 {
+    padding-bottom: 50px;
+}
+
+h1 {
+    font: 500 48px/1.65 "Roboto", sans-serif;
+}
+h2 {
+    font: 500 32px/1.19 "Roboto", sans-serif;
+}
+h3 {
+    font: 500 21px/1.19 "Roboto", sans-serif;
+}
+h4 {
+    font: 500 21px/1.19 "Roboto", sans-serif;
+    color: #FFFFFF;
+}
+h5 {
+    font: 400 13px/1.62 "Roboto", sans-serif;
+}
+p {
+    font: 400 16px/1.625 "Roboto", sans-serif;
+    color: #727272
+}
+.icons_box p {
+    font: 400 16px/1.625 "Roboto", sans-serif;
+    color: #FFFFFF;
+}
+.buttom_a {
+    font: 400 16px/1.625 "Roboto", sans-serif;
+}
+
+.main_nav a+a {
+    color: black;
+}
