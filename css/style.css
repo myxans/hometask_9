@@ -28,7 +28,7 @@ body {
 }
 .list a {
     padding: 10px;
-    display: inline-block;
+    display: block;
 }
 .list a:hover {
     background-color: #f00;
@@ -77,30 +77,11 @@ ul {
 .main_contact {
     display: inline-block;
 }
-.list_contact {
-    position: relative;
-    width: 120px;
-    text-align: center;
-}
 
-.dropdown_cont {
-    position: absolute;
-    bottom: 100%;
-    width: 120px;
-    text-align: center;
-    text-decoration-style: none;
-    opacity: 0;
-    visibility: hidden;
-}
 .list_contact a {
     text-decoration: none;
 }
 
-.nav_cont>li:hover .dropdown_cont>ul {
-    display: block;
-    opacity: 1;
-    visibility: visible;
-}
 /*main*/
 .main {
     background-color: #EEEFF1;
